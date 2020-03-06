@@ -1,6 +1,6 @@
 import sublime, sublime_plugin, re
 
-class DuplicateLineSelectorCommand(sublime_plugin.TextCommand):
+class DuplicateLineSelectorBlockCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         for region in self.view.sel():
             if region.empty():
