@@ -1,4 +1,9 @@
-2createSublimeDuplicateLine
+2createSublimeDuplicateSelector
 ===========================
 
-Sublime Plugin Duplicate Line
+Sublime Plugin Duplicate Selector
+
+
+Dependencies:
+
+https://packagecontrol.io/packages/Multicommand
