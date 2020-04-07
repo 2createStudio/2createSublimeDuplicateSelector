@@ -24,6 +24,7 @@ class DuplicateLineSelectorBlockCommand(sublime_plugin.TextCommand):
                         self.view.show(pt)
 
                         test = self.view.extract_scope(pt)
+                        self.view.insert(edit, 0, test[0])
                 else :
                         line_contents = self.view.substr(line) + '\n'
                         self.view.insert(edit, line.begin(), line_contents)
