@@ -1,6 +1,6 @@
 [
 	{
-    "keys": ["alt+shift+d"],
+    "keys": ["alt+shift+s"],
     "command": "multicommand",
     "args": {
       "commands": [
@@ -16,7 +16,7 @@
           "args": { "by": "characters", "forward": false}
         },
         {
-          "command": "duplicate_line_selector_block"
+          "command": "duplicate_line_selector"
         },
         {
           "command": "move",
